@@ -10,6 +10,7 @@ const NavBar = () => {
     <nav className="mb-20 flex items-center justify-between py-6">
       <div className="flex flex-shrink-0 items-center">
         <img
+          className="mx-2 w-10"
           src={logo}
           alt="logo"
           style={{ height: "100px", width: "100px", filter: "invert(100%)" }}
