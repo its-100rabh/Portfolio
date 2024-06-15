@@ -1,9 +1,8 @@
 import React from "react";
 import logo from "../assets/saurabhlogo.png";
-import { FaLinkedinIn } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
-import { FaInstagram } from "react-icons/fa";
+import IconButton from "@mui/material/IconButton";
 
 const NavBar = () => {
   return (
@@ -14,13 +13,45 @@ const NavBar = () => {
           src={logo}
           alt="logo"
           style={{ height: "100px", width: "100px", filter: "invert(100%)" }}
-        ></img>
+        />
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <FaLinkedinIn />
-        <FaGithub />
-        <FaSquareXTwitter />
-        <FaInstagram />
+        <a
+          href="https://www.linkedin.com/in/saurabh-mahapatra/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <IconButton>
+            <FaLinkedinIn />
+          </IconButton>
+        </a>
+        <a
+          href="https://github.com/its-100rabh"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <IconButton>
+            <FaGithub />
+          </IconButton>
+        </a>
+        <a
+          href="https://x.com/i__saurabh_"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <IconButton>
+            <FaSquareXTwitter />
+          </IconButton>
+        </a>
+        <a
+          href="https://www.instagram.com/_.100rabhh._/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <IconButton>
+            <FaInstagram />
+          </IconButton>
+        </a>
       </div>
     </nav>
   );
