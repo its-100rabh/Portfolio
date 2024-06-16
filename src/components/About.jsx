@@ -1,0 +1,14 @@
+import React from "react";
+
+const About = () => {
+  return (
+    <div className="border-b border-neutral-900 pb-4">
+      <h2 className="my-20 text-center text-4xl font-bold">
+        About
+        <span className="text-neutral-500 font-bold"> Me</span>
+      </h2>
+    </div>
+  );
+};
+
+export default About;
