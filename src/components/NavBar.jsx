@@ -21,7 +21,7 @@ const NavBar = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <IconButton>
+          <IconButton style={{ color: "white" }}>
             <FaLinkedinIn />
           </IconButton>
         </a>
@@ -30,7 +30,7 @@ const NavBar = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <IconButton>
+          <IconButton style={{ color: "white" }}>
             <FaGithub />
           </IconButton>
         </a>
@@ -39,7 +39,7 @@ const NavBar = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <IconButton>
+          <IconButton style={{ color: "white" }}>
             <FaSquareXTwitter />
           </IconButton>
         </a>
@@ -48,7 +48,7 @@ const NavBar = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <IconButton>
+          <IconButton style={{ color: "white" }}>
             <FaInstagram />
           </IconButton>
         </a>
