@@ -1,5 +1,7 @@
 import React from "react";
 import AnimatedText from "./AnimatedText"; // Import the AnimatedText component
+import { HERO_CONTENT } from "../constants";
+import ProfilePic from "../assets/kevinRushProfile.png";
 
 const Hero = () => {
   return (
@@ -16,6 +18,12 @@ const Hero = () => {
               </span>
               <AnimatedText /> {/* Include the AnimatedText component */}
             </div>
+            <p className="my-4 max-w-xl py-6 mx-2 text-m">{HERO_CONTENT}</p>
+          </div>
+        </div>
+        <div className="w-full lg:w-1/2 lg:p-8">
+          <div className="flex justify-center mt-10">
+            <img src={ProfilePic} alt="profile" style={{ height: "375px", width: "375px" }}/>
           </div>
         </div>
       </div>
