@@ -1,6 +1,8 @@
 import React from "react";
 import aboutImg from "../assets/about.jpg";
 import { ABOUT_TEXT, ABOUT_TEXT_2 } from "../constants";
+import { Button } from "@mui/material";
+import ReceiptIcon from "@mui/icons-material/Receipt";
 
 const About = () => {
   return (
@@ -22,6 +24,24 @@ const About = () => {
           </div>
           <div className="flex justify-center lg:justify-start">
             <p className="my-2 max-w-xl py-6 tracking-wider">{ABOUT_TEXT_2}</p>
+          </div>
+          <div className="flex mx-60 my-5">
+            <Button
+              variant="contained"
+              href="https://drive.google.com/file/d/14j4mcW4UKebS9w4BE8rTa0rLT0pBFpFY/view?usp=sharing"
+              startIcon={<ReceiptIcon />}
+              sx={{
+                background:
+                  "linear-gradient(to right, #fcb6c8, #cbd5e1, #a5b4fc)",
+                color: "black",
+                fontWeight: "bold",
+                fontFamily: "inherit",
+                fontSize: 18,
+                borderRadius: 2,
+              }}
+            >
+              My Resume
+            </Button>
           </div>
         </div>
       </div>
