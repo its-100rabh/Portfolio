@@ -18,7 +18,7 @@ const Hero = () => {
               </span>
               <AnimatedText /> {/* Include the AnimatedText component */}
             </div>
-            <p className="my-4 max-w-xl py-6 mx-2 text-m">{HERO_CONTENT}</p>
+            <p className="my-4 max-w-xl py-6 mx-2 text-m tracking-wider">{HERO_CONTENT}</p>
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
