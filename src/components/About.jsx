@@ -25,19 +25,20 @@ const About = () => {
           <div className="flex justify-center lg:justify-start">
             <p className="my-2 max-w-xl py-6 tracking-wider">{ABOUT_TEXT_2}</p>
           </div>
-          <div className="flex mx-60 my-5">
+          <div className="flex mx-auto">
             <Button
               variant="contained"
               href="https://drive.google.com/file/d/14j4mcW4UKebS9w4BE8rTa0rLT0pBFpFY/view?usp=sharing"
               startIcon={<ReceiptIcon />}
               sx={{
-                background:
-                  "linear-gradient(to right, #fcb6c8, #cbd5e1, #a5b4fc)",
-                color: "black",
+                background: "#140d01",
+                color: "white",
                 fontWeight: "bold",
                 fontFamily: "inherit",
-                fontSize: 18,
+                fontSize: 16,
                 borderRadius: 2,
+                border: "3px solid #f9a8d4",
+                textTransform: "none",
               }}
             >
               My Resume

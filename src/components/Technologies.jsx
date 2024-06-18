@@ -1,167 +1,55 @@
 import React from "react";
-import styled from "styled-components";
 import { skills } from "../constants";
-
-const Container = styled.div`
-  margin-top: 60px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
-  z-index: 1;
-  align-items: center;
-  padding-bottom: 4px;
-`;
-
-const Wrapper = styled.div`
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
-  max-width: 1100px;
-  gap: 12px;
-  @media (max-width: 960px) {
-    flex-direction: column;
-  }
-`;
-
-const Title = styled.div`
-  /* Gradient effect */
-  background-image: linear-gradient(
-    to right,
-    #ffc0cb 0%,
-    #f5f5f5 50%,
-    #d9b3ff 100%
-  );
-  background-clip: text;
-  -webkit-text-fill-color: transparent; /* For WebKit browsers */
-  color: transparent; /* Default color for other browsers */
-
-  font-size: 42px;
-  text-align: center;
-  font-weight: 600;
-  margin-top: 20px;
-
-  @media (max-width: 768px) {
-    margin-top: 12px;
-    font-size: 32px;
-  }
-`;
-
-export const Desc = styled.div`
-  font-size: 18px;
-  text-align: center;
-  max-width: 600px;
-  color: ${({ theme }) => theme.text_secondary};
-  @media (max-width: 768px) {
-    font-size: 16px;
-  }
-  margin-top: 20px;
-`;
-
-const SkillsContainer = styled.div`
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 30px;
-  gap: 30px;
-  justify-content: center;
-  padding-bottom: 10px;
-`;
-
-const Skill = styled.div`
-  width: 100%;
-  max-width: 500px;
-  background: #140d01;
-  border: 0.1px solid #ff8708;
-  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
-  border-radius: 16px;
-  padding: 18px 36px;
-  @media (max-width: 768px) {
-    max-width: 400px;
-    padding: 10px 36px;
-  }
-  @media (max-width: 500px) {
-    max-width: 330px;
-    padding: 10px 36px;
-  }
-`;
-
-const SkillTitle = styled.h2`
-  font-size: 28px;
-  font-weight: 600;
-  color: ${({ theme }) => theme.text_secondary};
-  margin-bottom: 20px;
-  text-align: center;
-`;
-
-const SkillList = styled.div`
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 12px;
-  margin-bottom: 20px;
-`;
-
-const SkillItem = styled.div`
-  font-size: 16px;
-  font-weight: 400;
-  color: ${({ theme }) =>
-    theme.text_primary || "white"}; // Default fallback color
-
-  /* User-defined border color */
-  border: 1px solid ${({ borderColor }) => borderColor || "white"};
-  border-radius: 12px;
-  padding: 12px 16px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-
-  @media (max-width: 768px) {
-    font-size: 14px;
-    padding: 8px 12px;
-  }
-
-  @media (max-width: 500px) {
-    font-size: 14px;
-    padding: 6px 12px;
-  }
-`;
-
-const SkillImage = styled.img`
-  width: 24px;
-  height: 24px;
-`;
 
 const Skills = () => {
   return (
-    <Container>
-      <Wrapper>
-        <Title>Skills</Title>
-        <Desc>
-          Here are some of my skills on which I have been working on for the
-          past 2 years.
-        </Desc>
-        <SkillsContainer>
+    <div className="border-b border-neutral-900 pb-4">
+      <h2 className="mt-20 text-center text-4xl font-bold">
+        <span className="bg-gradient-to-r from-pink-300 via-slate-200 to-purple-500 bg-clip-text text-transparent">
+          Skills
+        </span>
+      </h2>
+      <div className="flex flex-wrap">
+        <div className="w-full">
+          <p className="my-10 max-w-xl tracking-wider text-center mx-auto text-m">
+            Here are some of my skills on which I have been working on for the
+            past 2 years.
+          </p>
+        </div>
+        <div className="w-full flex flex-wrap justify-center">
           {skills.map((skill) => (
-            <Skill>
-              <SkillTitle>{skill.title}</SkillTitle>
-              <SkillList>
+            <div
+              key={skill.title}
+              className="w-full max-w-xl p-4 m-4 border  rounded-2xl"
+              style={{
+                backgroundColor: "#140d01",
+                borderColor: "#f9a8d4",
+                borderWidth: 3,
+              }}
+            >
+              <h3 className="text-2xl font-bold text-center text-white mb-4">
+                {skill.title}
+              </h3>
+              <div className="flex flex-wrap justify-center gap-4">
                 {skill.skills.map((item) => (
-                  <SkillItem>
-                    <SkillImage src={item.image} />
-                    {item.name}
-                  </SkillItem>
+                  <div
+                    key={item.name}
+                    className="flex items-center p-2 border border-gray-400 rounded-lg"
+                  >
+                    <img
+                      className="w-6 h-6 mr-2"
+                      src={item.image}
+                      alt={item.name}
+                    />
+                    <span className="text-white">{item.name}</span>
+                  </div>
                 ))}
-              </SkillList>
-            </Skill>
+              </div>
+            </div>
           ))}
-        </SkillsContainer>
-      </Wrapper>
-    </Container>
+        </div>
+      </div>
+    </div>
   );
 };
 
