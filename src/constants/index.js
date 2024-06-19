@@ -9,32 +9,32 @@ export const ABOUT_TEXT = `I am a computer science student with a passion for An
 export const ABOUT_TEXT_2 = `Additionally, I have a strong foundation in artificial intelligence and machine learning, applying my knowledge in Python to build intelligent systems and analyze data. I am experienced with Tailwind for styling, and I work with MongoDB and MySQL for database management. I have also contributed to open-source projects in Python, enhancing my collaborative and technical skills. Motivated and creative, I am always seeking new challenges to expand my expertise and deliver high-quality solutions.`;
 export const EXPERIENCES = [
   {
+    year: "Jun 2024 - Present",
+    role: "FrontEnd Developer",
+    company: "One% Dating Club",
+    description: `I monitored and addressed bugs in the app and admin panel to maintain high performance and user satisfaction. I developed and integrated new features based on evolving requirements, enhancing both the app and admin panel. Collaborating with UI/UX designers, I ensured seamless design and functionality using React Native and C++. I also ensured cross-device and platform compatibility to improve accessibility.`,
+    technologies: ["React Native", "C++","Android","TypeScript","JavaScript","Expo"],
+  },
+  {
+    year: "Sep 2023 - Nov 2023",
+    role: "React Native Developer",
+    company: "Banao Technologies",
+    description: `I led front-end development for a student app that managed discounts and offers, enhancing user experience and engagement. I worked with designers and back-end developers to create functional, user-friendly interfaces from design mockups and data models. Additionally, I conducted thorough testing and debugging of the React Native codebase to resolve performance, usability, and compatibility issues.`,
+    technologies: ["React Native", "Figma", "GitHub", "Firebase","Android","TypeScript","JavaScript","Expo"],
+  },
+  {
     year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    role: "Open Source Contributor",
+    company: "The Algorithms/Python",
+    description: `I have contributed various algorithms to open-source projects in the Python language, gaining a deep understanding of the different frameworks and rules of contribution.`,
+    technologies: ["Python", "Git", "GitHub"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2021 - Present",
+    role: "Android Developer",
+    company: "GDSC IET",
+    description: `As an Android developer at the Google Developers Student Club (GDSC), I've had the privilege of working on innovative projects and collaborating with talented developers who share my enthusiasm for technology. My involvement with GDSC has also given me the opportunity to participate in various events, including study jams and tech talks, which have helped me further develop my skills and knowledge in the field.`,
+    technologies: ["Mobile Application Development", "XML", "Teamwork", "Kotlin","Leadership"],
   },
 ];
 
@@ -202,8 +202,7 @@ export const skills = [
       },
       {
         name: "Tailwind",
-        image:
-          "https://www.drupal.org/files/project-images/screenshot_361.png",
+        image: "https://www.drupal.org/files/project-images/screenshot_361.png",
       },
       {
         name: "Vite",
