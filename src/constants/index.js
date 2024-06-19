@@ -20,7 +20,7 @@ export const EXPERIENCES = [
     role: "React Native Developer",
     company: "Banao Technologies",
     description: `I led front-end development for a student app that managed discounts and offers, enhancing user experience and engagement. I worked with designers and back-end developers to create functional, user-friendly interfaces from design mockups and data models. Additionally, I conducted thorough testing and debugging of the React Native codebase to resolve performance, usability, and compatibility issues.`,
-    technologies: ["React Native", "Figma", "GitHub", "Firebase","Android","TypeScript","JavaScript","Expo"],
+    technologies: ["React Native", "Figma","Android","TypeScript","JavaScript"],
   },
   {
     year: "2023 - Present",
