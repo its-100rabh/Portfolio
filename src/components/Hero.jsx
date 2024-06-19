@@ -12,18 +12,22 @@ const Hero = () => {
             <h1 className="pb-16 lg:mt-16 lg:text-7xl font-bold text-6xl bg-gradient-to-r from-pink-300 via-slate-200 to-purple-500 bg-clip-text text-transparent">
               Saurabh Mahapatra
             </h1>
-            <div className="flex items-center">
-              <span className="text-4xl tracking-tight mx-2 font-bold">
-                I am a
-              </span>
-              <AnimatedText /> {/* Include the AnimatedText component */}
-            </div>
-            <p className="my-4 max-w-xl py-6 mx-2 text-m tracking-wider">{HERO_CONTENT}</p>
+            <span className="text-4xl tracking-tight mx-2 font-bold">
+              I am a
+            </span>
+            <AnimatedText /> {/* Include the AnimatedText component */}
+            <p className="my-4 max-w-xl py-6 mx-2 text-m tracking-wider">
+              {HERO_CONTENT}
+            </p>
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center mt-10">
-            <img src={ProfilePic} alt="profile" style={{ height: "375px", width: "375px" }}/>
+            <img
+              src={ProfilePic}
+              alt="profile"
+              style={{ height: "375px", width: "375px" }}
+            />
           </div>
         </div>
       </div>
