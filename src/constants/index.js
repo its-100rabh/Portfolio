@@ -261,3 +261,34 @@ export const skills = [
     ],
   },
 ];
+
+export const education = [
+  {
+    id: 0,
+    img: "https://upload.wikimedia.org/wikipedia/commons/4/47/Ietlogo.png",
+    school: "Institute of Engineering & Technology, Lucknow",
+    date: "Aug 2021 - Sep 2025",
+    grade: "8.50 CGPA",
+    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at IET Lucknow. I have completed 6 semesters and have a CGPA of 8.50. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at IET, where I am learning and working on exciting projects with a team of talented developers.",
+    degree:
+      "Bachelor of Technology - BTech, Computer Science and Engineering | Specialization : Artificial Intelligence",
+  },
+  {
+    id: 1,
+    img: "https://4.bp.blogspot.com/-cKfxHZBZKNo/WIQaN1S0CwI/AAAAAAAAFAc/8CVg_TVmG6ES8uVepCpzzYmwKyxvmyR7gCLcB/s1600/kvs-logo-with-bg.png",
+    school: "Kendriya Vidyalaya Lucknow",
+    date: "Apr 2020 - Apr 2021",
+    grade: "91.04%",
+    desc: "I completed my class 12 high school education at KV School, Lucknow, where I studied Science with Computer Science.",
+    degree: "CBSE(XII), Science with Computer",
+  },
+  {
+    id: 2,
+    img: "https://4.bp.blogspot.com/-cKfxHZBZKNo/WIQaN1S0CwI/AAAAAAAAFAc/8CVg_TVmG6ES8uVepCpzzYmwKyxvmyR7gCLcB/s1600/kvs-logo-with-bg.png",
+    school: "Kendriya Vidyalaya Lucknow",
+    date: "Apr 2019 - Apr 2020",
+    grade: "93%",
+    desc: "I completed my class 10 education at KV School, Lucknow where I studied Science with Computer Application.",
+    degree: "CBSE(X), Science with Computer",
+  },
+];
