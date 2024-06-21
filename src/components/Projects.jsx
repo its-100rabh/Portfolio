@@ -42,7 +42,7 @@ const Projects = () => {
         <p className="mt-20 max-w-xl tracking-wider text-center mx-auto text-lg font-medium">
           For additional projects, please visit my GitHub profile.
         </p>
-        <div className="flex mx-auto justify-center mt-10">
+        <div className="flex mx-auto justify-center mt-10 mb-10">
           <Button
             variant="contained"
             href="https://github.com/its-100rabh"
