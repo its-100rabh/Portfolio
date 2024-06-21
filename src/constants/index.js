@@ -1,4 +1,4 @@
-import project1 from "../assets/projects/project-1.jpg";
+import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
@@ -60,28 +60,31 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Portfolio Website",
-    image: project1,
+    image:
+      "https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2021/08/how-to-make-an-online-portfolio.webp",
     description:
       'Developed a fully functional portfolio website featuring an "About Me" section, detailed work experience, showcased projects, tech stack, educational background, and a contact form for reaching me via email, all deployed for easy access.',
     technologies: ["HTML", "CSS", "React", "Tailwind"],
   },
   {
     title: "SportsEUREKA",
-    image: project2,
+    image: "https://www.livelaw.in/h-upload/images/1600x960_sports-law.jpg",
     description:
       "SportsEUREKA is a mobile app offering comprehensive information, rules, and news about global sports, with features for easy browsing, detailed insights, and school collaboration for sports clubs.",
     technologies: ["React Native", "JavaScript", "Tailwind", "TypeScript"],
   },
   {
     title: "Time Table Generator",
-    image: project3,
+    image:
+      "https://www.chilliapple.co.uk/blog/app/uploads/2023/03/chilliapple-Blog-Image-benefits-of-Having-Mobile-App-for-eCommerce-Business.jpg",
     description:
       "Developed a React Native app for creating personalized timetables, featuring secure user authentication, state management, and custom schedule generation based on user preferences and holidays.",
     technologies: ["React Native", "JavaScript", "Android"],
   },
   {
     title: "Blogg",
-    image: project4,
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYQw8VSTGmJQYChaAhuz1NgGOfu065WIlbHQ&s",
     description:
       "Developed a blogging app with login/signup functionality, enabling users to post, update, delete, and access their daily activity blogs, with a personalized view of their own posts.",
     technologies: [
@@ -95,24 +98,18 @@ export const PROJECTS = [
   },
   {
     title: "OneChat",
-    image: project4,
+    image:
+      "https://img.freepik.com/premium-vector/chat-vector-icon_676179-133.jpg",
     description:
       "Developed a React Native chat application with Firebase integration, enabling user login/signup, and facilitating both individual chats and group chats for up to three specific users. The app features secure authentication, real-time messaging, and dedicated chatrooms for seamless communication.",
     technologies: ["React Native", "JavaScript", "Expo", "Firebase"],
   },
   {
-    title: "Blogg",
-    image: project4,
+    title: "Newsly",
+    image: "https://media.shuru.co.in/input/1683637294081.jpg",
     description:
-      "Developed a blogging app with login/signup functionality, enabling users to post, update, delete, and access their daily activity blogs, with a personalized view of their own posts.",
-    technologies: [
-      "React Native",
-      "JavaScript",
-      "MongoDB",
-      "Node.js",
-      "Expo",
-      "Postman",
-    ],
+      "Made a React Native news app based on latest news fetched from an API and displays a list of news of various domains like entertainment, sports, politics, health and can also save selected news based on the user’s interest.",
+    technologies: ["React Native", "TypeScript", "Tailwind", "Android"],
   },
 ];
 
