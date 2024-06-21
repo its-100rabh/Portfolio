@@ -1,5 +1,7 @@
 import React from "react";
 import { PROJECTS } from "../constants";
+import { Button } from "@mui/material";
+import ReceiptIcon from "@mui/icons-material/Receipt";
 
 const Projects = () => {
   return (
@@ -35,6 +37,30 @@ const Projects = () => {
             </div>
           </div>
         ))}
+      </div>
+      <div className="w-full">
+        <p className="mt-20 max-w-xl tracking-wider text-center mx-auto text-lg font-medium">
+          For additional projects, please visit my GitHub profile.
+        </p>
+        <div className="flex mx-auto justify-center mt-10">
+          <Button
+            variant="contained"
+            href="https://github.com/its-100rabh"
+            startIcon={<ReceiptIcon />}
+            sx={{
+              background: "#140d01",
+              color: "white",
+              fontWeight: "bold",
+              fontFamily: "inherit",
+              fontSize: 16,
+              borderRadius: 2,
+              border: "3px solid #f9a8d4",
+              textTransform: "none",
+            }}
+          >
+            My GitHub
+          </Button>
+        </div>
       </div>
     </div>
   );
