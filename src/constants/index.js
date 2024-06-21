@@ -13,14 +13,27 @@ export const EXPERIENCES = [
     role: "FrontEnd Developer",
     company: "One% Dating Club",
     description: `I monitored and addressed bugs in the app and admin panel to maintain high performance and user satisfaction. I developed and integrated new features based on evolving requirements, enhancing both the app and admin panel. Collaborating with UI/UX designers, I ensured seamless design and functionality using React Native and C++. I also ensured cross-device and platform compatibility to improve accessibility.`,
-    technologies: ["React Native", "C++","Android","TypeScript","JavaScript","Expo"],
+    technologies: [
+      "React Native",
+      "C++",
+      "Android",
+      "TypeScript",
+      "JavaScript",
+      "Expo",
+    ],
   },
   {
     year: "Sep 2023 - Nov 2023",
     role: "React Native Developer",
     company: "Banao Technologies",
     description: `I led front-end development for a student app that managed discounts and offers, enhancing user experience and engagement. I worked with designers and back-end developers to create functional, user-friendly interfaces from design mockups and data models. Additionally, I conducted thorough testing and debugging of the React Native codebase to resolve performance, usability, and compatibility issues.`,
-    technologies: ["React Native", "Figma","Android","TypeScript","JavaScript"],
+    technologies: [
+      "React Native",
+      "Figma",
+      "Android",
+      "TypeScript",
+      "JavaScript",
+    ],
   },
   {
     year: "2023 - Present",
@@ -34,38 +47,72 @@ export const EXPERIENCES = [
     role: "Android Developer",
     company: "GDSC IET",
     description: `As an Android developer at the Google Developers Student Club (GDSC), I've had the privilege of working on innovative projects and collaborating with talented developers who share my enthusiasm for technology. My involvement with GDSC has also given me the opportunity to participate in various events, including study jams and tech talks, which have helped me further develop my skills and knowledge in the field.`,
-    technologies: ["Mobile Application Development", "XML", "Teamwork", "Kotlin","Leadership"],
+    technologies: [
+      "Mobile Application Development",
+      "XML",
+      "Teamwork",
+      "Kotlin",
+      "Leadership",
+    ],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Portfolio Website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      'Developed a fully functional portfolio website featuring an "About Me" section, detailed work experience, showcased projects, tech stack, educational background, and a contact form for reaching me via email, all deployed for easy access.',
+    technologies: ["HTML", "CSS", "React", "Tailwind"],
   },
   {
-    title: "Task Management App",
+    title: "SportsEUREKA",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "SportsEUREKA is a mobile app offering comprehensive information, rules, and news about global sports, with features for easy browsing, detailed insights, and school collaboration for sports clubs.",
+    technologies: ["React Native", "JavaScript", "Tailwind", "TypeScript"],
   },
   {
-    title: "Portfolio Website",
+    title: "Time Table Generator",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Developed a React Native app for creating personalized timetables, featuring secure user authentication, state management, and custom schedule generation based on user preferences and holidays.",
+    technologies: ["React Native", "JavaScript", "Android"],
   },
   {
-    title: "Blogging Platform",
+    title: "Blogg",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Developed a blogging app with login/signup functionality, enabling users to post, update, delete, and access their daily activity blogs, with a personalized view of their own posts.",
+    technologies: [
+      "React Native",
+      "JavaScript",
+      "MongoDB",
+      "Node.js",
+      "Expo",
+      "Postman",
+    ],
+  },
+  {
+    title: "OneChat",
+    image: project4,
+    description:
+      "Developed a React Native chat application with Firebase integration, enabling user login/signup, and facilitating both individual chats and group chats for up to three specific users. The app features secure authentication, real-time messaging, and dedicated chatrooms for seamless communication.",
+    technologies: ["React Native", "JavaScript", "Expo", "Firebase"],
+  },
+  {
+    title: "Blogg",
+    image: project4,
+    description:
+      "Developed a blogging app with login/signup functionality, enabling users to post, update, delete, and access their daily activity blogs, with a personalized view of their own posts.",
+    technologies: [
+      "React Native",
+      "JavaScript",
+      "MongoDB",
+      "Node.js",
+      "Expo",
+      "Postman",
+    ],
   },
 ];
 
