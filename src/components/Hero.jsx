@@ -1,7 +1,7 @@
 import React from "react";
 import AnimatedText from "./AnimatedText"; // Import the AnimatedText component
 import { HERO_CONTENT } from "../constants";
-import ProfilePic from "../assets/kevinRushProfile.png";
+import ProfilePic from "../assets/Saurabh.jpg";
 
 const Hero = () => {
   return (
@@ -26,7 +26,7 @@ const Hero = () => {
             <img
               src={ProfilePic}
               alt="profile"
-              style={{ height: "375px", width: "375px" }}
+              style={{ height: "375px", width: "375px", borderRadius: 60 }}
             />
           </div>
         </div>
