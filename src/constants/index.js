@@ -292,3 +292,10 @@ export const education = [
     degree: "CBSE(X), Science with Computer",
   },
 ];
+
+export const Bio = {
+  name: "Aditya Singh",
+  linkedin: "https://www.linkedin.com/in/saurabh-mahapatra/",
+  twitter: "https://x.com/i__saurabh_",
+  insta: "https://www.instagram.com/_.100rabhh._/",
+};
