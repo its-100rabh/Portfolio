@@ -1,5 +1,4 @@
 import React from "react";
-import aboutImg from "../assets/about.jpg";
 import { ABOUT_TEXT, ABOUT_TEXT_2 } from "../constants";
 import { Button } from "@mui/material";
 import ReceiptIcon from "@mui/icons-material/Receipt";
@@ -15,7 +14,7 @@ const About = () => {
     padding: 0 6px;
   `;
   return (
-    <div className="border-b border-neutral-900 pb-4">
+    <div className="border-b border-neutral-800 pb-4">
       <h2 className="my-20 text-center text-4xl font-bold">
         <span className="bg-gradient-to-r from-pink-300 via-slate-200 to-purple-500 bg-clip-text text-transparent">
           About Me
@@ -24,7 +23,12 @@ const About = () => {
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex items-center justify-center">
-            <img className="rounded-2xl" src={aboutImg} alt="about" />
+            <img
+              className="rounded-2xl"
+              src="https://i.insider.com/601441dd6dfbe10018e00c25?width=700"
+              alt="about"
+              style={{ height: 350, width: 450 }}
+            />
           </div>
         </div>
         <div className="w-full lg:w-1/2">

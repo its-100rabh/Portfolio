@@ -27,7 +27,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="border-b border-neutral-900 pb-20">
+    <div className="border-b border-neutral-800 pb-20">
       <div className="flex flex-col items-center justify-center relative z-1 px-4 sm:px-0">
         <div className="flex flex-col items-center justify-between w-full max-w-5xl px-4 py-8 sm:px-0 gap-3">
           <h1 className="text-center text-4xl font-bold mt-5 sm:mt-3 text-primary bg-gradient-to-r from-pink-300 via-slate-200 to-purple-500 bg-clip-text text-transparent">
