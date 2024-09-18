@@ -47,7 +47,7 @@ const About = () => {
             <ButtonContainer>
               <Button
                 variant="contained"
-                href="https://drive.google.com/file/d/14j4mcW4UKebS9w4BE8rTa0rLT0pBFpFY/view?usp=sharing"
+                href="https://bit.ly/4cWANzb"
                 startIcon={<ReceiptIcon />}
                 sx={{
                   background:
